@@ -6,6 +6,8 @@ function Header() {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">Services</a></li>
+                    <li><a href="/">Schedules</a></li>
+                    <li><a href="/">Location</a></li>
                     <li><a href="/">Login</a></li>
                     <li><a href="/">Register</a></li>
                 </ul>
