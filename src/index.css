@@ -36,7 +36,9 @@ nav ul li a {
 
 .container {
   text-align: center;
-  display: flex;
+  display: ;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -47,6 +49,8 @@ nav ul li a {
   margin: 10px;
   text-align: center;
   max-width: 300px;
+  display: inline-block;
+  
 }
 
 img {
