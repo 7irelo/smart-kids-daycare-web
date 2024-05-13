@@ -1,4 +1,5 @@
 import Header from "./Header.jsx"
+import Home from "./Home.jsx"
 import Service from "./Service/Service.jsx"
 import Footer from "./Footer.jsx"
 
@@ -7,6 +8,7 @@ function App() {
   return(
     <>
       <Header/>
+      <Home/>
       <div className="container">
         <h1>Services</h1>
         <Service service={services[0]}/>
