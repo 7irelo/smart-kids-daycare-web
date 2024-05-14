@@ -1,5 +1,5 @@
 body {
-  font-family: bahnschrift, sans-serif;
+  font-family: comic-sans, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -7,11 +7,12 @@ body {
 header {
   background-color: black;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
 }
 
 header h1 {
   margin: 0;
+  padding-bottom: 10px;
 }
 
 header a {
@@ -32,6 +33,19 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.home-container p {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: dotted;
+  padding: 50px;
+  background-color: hsl(182, 61%, 69%);
+  border-radius: 10%;
 }
 
 .container {
