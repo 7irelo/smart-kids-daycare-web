@@ -8,7 +8,6 @@
     max-width: 400px;
     max-height: 700px;
     display: inline-block;
-    
 }
   
 .cardImage {
@@ -18,15 +17,16 @@
 .cardTitle {
     padding-left: 10px;
     padding-right: 10px;
-  }
+}
   
 .cardDescription {
     font-weight: lighter;
     padding-left: 15px;
     padding-right: 15px;
+    color: hsl(0, 0%, 65%);
 }
   
-.learnMore {
+button {
     margin: 40px;
     border-radius: 5px;
     width: 100px;

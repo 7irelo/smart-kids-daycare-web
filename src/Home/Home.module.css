@@ -1,0 +1,12 @@
+.homeContainer {
+    text-align: center;
+}
+  
+.homeDescription {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border: solid grey;
+    padding: 50px;
+    background-color: hsl(300, 100%, 90%);
+}

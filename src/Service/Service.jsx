@@ -1,7 +1,8 @@
-import service_pic from "../assets/astronaut.jpg"
+import PropTypes from "prop-types"
 import styles from "./Service.module.css"
 
 function Service(props) {
+
     return(
             <div className={styles.card}>
                 <img src={props.service.imageURL} alt="service picture" className={styles.cardImage}></img>
@@ -12,4 +13,7 @@ function Service(props) {
     );
 }
 
+Service.propTypes = {
+    service: PropTypes.object
+}
 export default Service
