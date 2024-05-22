@@ -1,12 +1,8 @@
 .schedule {
-    border: 1px solid hsl(0, 0%, 80%);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
     text-align: center;
-    width: 800px;
+    width: auto;
     display: block;
-}
-
-.time {
-    padding: 0px;
+    padding: 20px;
+    margin: 20px;
+    background-color: hsla(180, 100%, 90%, 0.5);
 }

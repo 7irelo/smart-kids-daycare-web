@@ -1,12 +1,15 @@
 .homeContainer {
     text-align: center;
+    align-items: center;
 }
   
 .homeDescription {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-    border: solid grey;
+    text-align: left;
+    border: none;
+    border-radius: 20px;
     padding: 50px;
-    background-color: hsl(300, 100%, 90%);
+    background-color: hsla(180, 100%, 90%, 0.7);
 }

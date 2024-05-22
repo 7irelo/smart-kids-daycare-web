@@ -1,17 +1,17 @@
 .card {
-    border: 1px solid hsl(0, 0%, 80%);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
     padding: 0px;
     margin: 10px;
     text-align: center;
-    max-width: 400px;
-    max-height: 700px;
+    width: 400px;
+    height: auto;
     display: inline-block;
+    background-color:hsla(180, 100%, 90%, 0.7);
 }
   
 .cardImage {
-    max-width: 100%;
+    max-width: 400px;
 }
   
 .cardTitle {
@@ -23,7 +23,6 @@
     font-weight: lighter;
     padding-left: 15px;
     padding-right: 15px;
-    color: hsl(0, 0%, 65%);
 }
   
 button {
