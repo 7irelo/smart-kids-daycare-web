@@ -18,13 +18,13 @@ To set up the Smart Kids Daycare web application locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/7irelo/Smart_Kids_Daycare.git
+   git clone https://github.com/7irelo/smart-kids-daycare.git
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd Smart-Kids-Daycare
+   cd smart-kids-daycare
    ```
 
 3. Install dependencies using npm or yarn:
